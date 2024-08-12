@@ -37,7 +37,7 @@ class Processor {
     let pipe = pipeArg;
     if (typeof name === 'string') {
       if (typeof pipe === 'undefined') {
-        return this.pipes[name as keyof typeof this.pipes]!;
+        return this.pipes[name as keyof typeof this.pipes];
       } else {
         this.pipes[name as keyof typeof this.pipes] = pipe as Pipe<
           // eslint-disable-next-line @typescript-eslint/no-explicit-any
