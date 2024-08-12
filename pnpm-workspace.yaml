@@ -1,0 +1,5 @@
+packages:
+  - demos/console-demo
+  - demos/html-demo
+  - demos/numeric-plugin-demo
+  - packages/jsondiffpatch
